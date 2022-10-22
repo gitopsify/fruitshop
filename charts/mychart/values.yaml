@@ -11,9 +11,9 @@ provider:
   # provider hosting the databases (mongodb-atlas-registration, cockroachdb-cloud-registration, crunchy-bridge-registration etc)
   type: mongodb-atlas-registration
   # database instance name
-  newInstanceName: my-atlas-cluster-105
+  newInstanceName: ocp-commons-prep-rhoda
   # the name of the MongoDB Atlas project
-  atlasProject: my-atlas-project-105
+  atlasProject: ocp-commons-prep-rhoda
   # secret for the provider account credenitials as well as the provider account (dbaadinventory CR)
   secret: my-atlas-key
   # An admin namespace for storing the secret for the provider account credenitials as well as the provider account (dbaadinventory CR)
