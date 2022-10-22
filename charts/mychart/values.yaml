@@ -5,7 +5,7 @@
 # name of the workflow (use case)
 workflowName: create-and-connect
 
-appName: myapp
+appName: quarkus-fruit-shop
 
 provider:
   # provider hosting the databases (mongodb-atlas-registration, cockroachdb-cloud-registration, crunchy-bridge-registration etc)
@@ -17,7 +17,7 @@ provider:
   # secret for the provider account credenitials as well as the provider account (dbaadinventory CR)
   secret: my-atlas-key
   # An admin namespace for storing the secret for the provider account credenitials as well as the provider account (dbaadinventory CR)
-  admNamespace: jianrong-adm
+  admNamespace: ocp-commons-prep-rhoda
 
 service:
   protocol: TCP
